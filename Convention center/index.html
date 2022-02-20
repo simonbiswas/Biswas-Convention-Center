@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/df2495dcdf.js" crossorigin="anonymous"></script>
+
+    <title>Biswas Convention Center</title>
+    <!-- bootstrap css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <style>
+        body {
+            margin: 0;
+            font-family: 'Lato', sans-serif;
+            font-weight: 900;
+        }
+
+        .c1 {
+            color: skyblue;
+        }
+
+        .c2 {
+            color: navy;
+        }
+
+        .c3 {
+            background-image: linear-gradient(navy, black);
+        }
+
+        .special-card {
+            border-radius: 40px;
+
+        }
+
+        @media only screen and (max-width:688px) {
+            .first-part-img {
+                width: 100%;
+                height: 600px;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="m-lg-5 fw-bold ">Biswas Convention Center</h1>
+    </header>
+    <!---------- 
+    First part(Image Slide) 
+     ----------->
+    <section class="container-fluid first-part pb-5">
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="images/pic_5.jpg" class="d-block w-100 first-part-img " alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1 class="fw-bolder c1">The Perfect Venue for your special ceremony</h1>
+                        <p class="c1">We are always commited for the best service</p>
+                        <a href="https://www.w3schools.com/tags/ref_colornames.asp" target="_blank"><button
+                                type="button" class="btn btn-primary btn-lg">Book Now</button></a>
+
+                    </div>
+                </div>
+                <div class="carousel-item col">
+                    <img src="images/pic_2.jpg" class="d-block w-100 opacity-75 first-part-img" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1 class="fw-bolder c2">The Perfect Venue for your special ceremony</h1>
+                        <p class="c2 fw-bolder">We are always commited for the best service</p>
+                        <a href="https://www.w3schools.com/tags/ref_colornames.asp" target="_blank"><button
+                                type="button" class="btn btn-primary btn-lg">Book Now</button></a>
+
+                    </div>
+                </div>
+                <div class="carousel-item col">
+                    <img src="images/pic_4.jpg" class="d-block w-100 opacity-75 first-part-img" alt="...">
+                    <div class="carousel-caption d-block">
+                        <h1 class="fw-bolder c2">The Perfect Venue for your special ceremony</h1>
+                        <p class="fw-bolder c2">We are always commited for the best service</p>
+                        <a href="https://www.w3schools.com/tags/ref_colornames.asp" target="_blank"><button
+                                type="button" class="btn btn-primary btn-lg">Book Now</button></a>
+
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+
+    </section>
+    <!---------- 
+    Second part(Card Part) 
+     ----------->
+    <section class="container mb-3">
+        <h1 class="fw-bolder text-center pt-5 pb-4">Our Package</h1>
+        <div class="row row-cols-1 row-cols-lg-4 g-4">
+
+            <div class="col">
+                <div class="card border-0 h-100 mt-4">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bolder">$400</h1>
+                        <p class="card-text">Business fair</p>
+                        <p class="card-text fw-light">For most businesses event
+                            like book fair, craft fair.</p>
+                        <div class="fw-light text-secondary pb-2">
+                            <i class="fas fa-check-circle text-primary pe-2"></i>limited space access<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Secuirty facility<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Event support<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Decoration design<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Per day bill
+                        </div>
+                        <div>
+                            <a href="https://www.w3schools.com/tags/ref_httpmessages.asp" target="_blank"><button
+                                    type="button" class="btn btn-primary btn-lg rounded-pill w-100 mb-0">Choose
+                                    Plan</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card border-0 h-100 mt-4">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bolder">$600</h1>
+                        <p class="card-text">Wedding basic</p>
+                        <p class="card-text fw-light">For weddings with basic plan
+                            and limited item.</p>
+                        <div class="fw-light text-secondary pb-2">
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Full space access<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Food arrangement<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>mangement support<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Decoration design<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Billed as shift
+                        </div>
+                        <div>
+                            <a href="https://www.w3schools.com/tags/ref_httpmessages.asp" target="_blank"><button
+                                    type="button" class="btn btn-primary btn-lg rounded-pill w-100">Choose
+                                    Plan</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col">
+                <div class="card border-0 h-100">
+                    <div class="card-body bg-primary special-card">
+                        <h1 class="card-title fw-bolder text-white">$900</h1>
+                        <p class="card-text text-white">Wedding plus</p>
+                        <p class="card-text fw-light text-white">For most weddings with
+                            premium plans</p>
+                        <div class="position-absolute top-0 end-0 bg-danger text-white rounded-pill p-1">Most Popular
+                        </div>
+                        <div class="fw-light text-white pb-2 mb-3">
+                            <i class="fas fa-check-circle text-white pe-2"></i>Full space access<br>
+                            <i class="fas fa-check-circle text-white pe-2"></i>Dedicated team<br>
+                            <i class="fas fa-check-circle text-white pe-2"></i>Buffet food<br>
+                            <i class="fas fa-check-circle text-white pe-2"></i>Premium decoration<br>
+                            <i class="fas fa-check-circle text-white pe-2"></i>Pay as plan
+                        </div>
+                        <div>
+                            <a href="https://www.w3schools.com/tags/ref_httpmessages.asp" target="_blank"><button
+                                    type="button"
+                                    class="btn btn-light btn-lg rounded-pill text-primary w-100 justify-content-end mt-4 mb-5">Choose
+                                    Plan</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="col">
+                <div class="card border-0 h-100 mt-4">
+                    <div class="card-body">
+                        <h1 class="card-title fw-bolder">$1250</h1>
+                        <p class="card-text">Corporate event</p>
+                        <p class="card-text fw-light">For most corporate business
+                            events with special facility.</p>
+                        <div class="fw-light text-secondary pb-2">
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Full space access<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Dedicated team<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>Buffet food<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>premium Decoration<br>
+                            <i class="fas fa-check-circle text-primary pe-2"></i>pay as plan
+                        </div>
+                        <div>
+                            <a href="https://www.w3schools.com/tags/ref_httpmessages.asp" target="_blank"><button
+                                    type="button" class="btn btn-primary btn-lg rounded-pill w-100">Choose
+                                    Plan</button></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Bonus part (VISA Card Part)-->
+    <section class="container">
+        <div class="row">
+            <div class="alert alert-warning alert-dismissible fade show w-25 col-sm-12" role="alert">
+                <strong>Hurry!</strong> Use your VISA card and grab this limited time offer.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+
+        <h1 class="text-center fw-bolder mt-5 mb-5">Special Discount!!!</h1>
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <img src="images/card.jpg" class="h-100 w-100" alt="">
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <h3 class="text-center text-primary mt-5 mb-2">VISA card users will get 10% discount on payment.</h3>
+                <p class="text-center"><span class="text-warning">Terms and condition:</span> You have to pay 25%
+                    advance payment before the
+                    program.</p>
+            </div>
+
+        </div>
+        </div>
+    </section>
+
+
+    <!-- Fourth part (Accordian Part) -->
+    <section class="container mt-5">
+        <h1 class="text-center fw-bolder mt-5 mb-5">Frequently Asked Questions</h1>
+
+        <div class="row">
+            <div class="col-lg-6 col-sm-12">
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header fw-bolder" id="panelsStayOpen-headingOne">
+                            <button class="accordion-button fw-bolder" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                What’s the difference between event design and event planning?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <p class="fw-light text-secondary">Event design and event planning work hand in hand to
+                                    deliver
+                                    a successful event.Events by Knight offer tailor made events. This
+                                    means we incorporate both event design and event planning to
+                                    create that perfect event</p>
+
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header fw-bolder" id="panelsStayOpen-headingTwo">
+                            <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                How early do we need to start planning an event?
+
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <p class="fw-light text-secondary">You have contact us at least 15 days earlier before
+                                    the
+                                    program.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="accordion-item">
+                        <h2 class="accordion-header fw-bolder" id="panelsStayOpen-headingThree">
+                            <button class="accordion-button collapsed fw-bolder" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                How do you keep budgets on track?
+
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                <p class="fw-light text-secondary">We have separate data management team and HR
+                                    department.
+                                    Both
+                                    of this departments help us in this
+                                    task.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-sm-12">
+                <img src="images/question_picture.jpg" class="h-50 w-100 border-dark" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- footer part -->
+    <footer class="c3">
+        <div class="row">
+            <div class="col-lg-7 col-sm-12">
+                <p class="text-white text-center align-content-center mt-5 pt-5">© 2022 Biswas Convention
+                    Center. All rights
+                    reserved</p>
+            </div>
+
+
+            <div class="col-lg-5 col-sm-12">
+                <div class="align-content-center justify-content-center text-center">
+                    <p class="text-white ms-0">Get the app</p>
+                    <a href="https://play.google.com/store/apps/details?id=com.instagram.android" target="_blank">
+                        <button type="button " class="btn btn-light ms-0 mt-3 pe-1 h-75 pt-0 fs-4">
+                            <sup class="fs-6">GET IT ON</sup><br><i class="fab fa-google-play"></i> Google Play
+                        </button></a>
+                    <br>
+                    <a href="https://apps.apple.com/us/app/apple-books/id364709193" target="_blank">
+                        <button type="button " class="btn btn-light  ms-0 mt-3 pe-4  mb-3 fs-4 h-25 pt-0"><sup
+                                class="fs-6">Download on
+                                the</sup><br class="p-0"><i class="fab fa-apple"></i>
+                            App
+                            Store
+                        </button></a>
+                </div>
+
+            </div>
+
+
+        </div>
+    </footer>
+
+
+    <!-- bootstrap js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
